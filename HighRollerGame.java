@@ -38,7 +38,7 @@ public class HighRollerGame {
                     System.out.println(diceSet);
                 } else if (command.matches("high(est)?")) {
                     if (highest == 0) {
-                        System.out.println("There is currently no high score, roll to get one")
+                        System.out.println("There is currently no high score, roll to get one");
                     } else {
                         System.out.println(highest);
                     }
